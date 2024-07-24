@@ -2,7 +2,7 @@
     <footer id="footer" class="footer-wrapper">
         <div class="row">
             <div class="col small-12 large-12">
-                <img src="amazon-fba.jpg">
+                <img src="homeAssets/amazon-fba.jpg">
             </div>
         </div>
         <div class="row" id="row-1785080347">

@@ -55,7 +55,7 @@
                             <li class="header-divider"></li>
                             <li class="html header-social-icons ml-0">
                                 <div class="social-icons follow-icons">
-                                    <a data-animate="bounceIn" href="booking/index" target="_self"
+                                    <a data-animate="bounceIn" href="booking" target="_self"
                                         class="button primary" style="border-radius: 99px;" data-animated="true">
                                         <span>Get Started</span>
                                     </a>
@@ -69,7 +69,7 @@
                         <ul class="mobile-nav nav nav-right">
                             <li class="header-search header-search-lightbox has-icon">
                                 <div class="header-button">
-                                    <a data-animate="bounceIn" href="booking/index" target="_self"
+                                    <a data-animate="bounceIn" href="booking" target="_self"
                                         class="button primary" style="border-radius: 99px;" data-animated="true">
                                         <span>Get Started</span>
                                     </a>

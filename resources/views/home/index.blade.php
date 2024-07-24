@@ -60,7 +60,7 @@
                     new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, 'google_translate_element');
                 }
             </script>
-            <script type="text/javascript" src="translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <script type="text/javascript" src="homeAssets/translate_a/element.js?cb=googleTranslateElementInit"></script>
             <div id="google_translate_element"></div>
         </div>
         <h1 style="text-align: center;" data-padding="5px"><strong>BeginnersFba &amp; eCommerce
@@ -1424,9 +1424,9 @@
                     Clients</span><b></b></h3>
         </div>
 
-        <div class="video video-fit mb" style="padding-top: 100%; display: flex; justify-content: center;">
+        <div class="video video-fit m-auto" style="padding-top: 100%; display: flex; justify-content: center;">
             <video controls="">
-                <source src="What%20is%20Fulfillment%20by%20Amazon%20%28FBA%29__Full-HD.mp4" type="video/mp4">
+                <source src="homeAssets/What%20is%20Fulfillment%20by%20Amazon%20%28FBA%29__Full-HD.mp4" type="video/mp4">
 
                 Your browser does not support the video tag.
             </video>
@@ -1472,17 +1472,17 @@
                             <div class="box-image">
                                 <img width="222" height="400" alt="" ids="1015,1018,1019,1020,1021,1022,1023"
                                     style="none" lightbox="false" columns="5" columns__sm="2"
-                                    data-srcset="homeAssets/res-img/IMG-20220226-WA0001.jpg 222w, /res-img/IMG-20220226-WA0001.jpg  444w, /res-img/IMG-20220226-WA0001.jpg  448w"
+                                    data-srcset="homeAssets/res-img/IMG-20220226-WA0001.jpg 222w, homeAssets/res-img/IMG-20220226-WA0001.jpg  444w, homeAssets/res-img/IMG-20220226-WA0001.jpg  448w"
                                     data-src="homeAssets/res-img/IMG-20220226-WA0001.jpg"
                                     data-sizes="(max-width: 222px) 100vw, 222px"
                                     class="attachment-medium size-medium lazyload"
-                                    src="res-img/IMG-20220226-WA0001.jpg">
+                                    src="homeAssets/res-img/IMG-20220226-WA0001.jpg">
                                 <noscript>
-                                    <img width="222" height="400" src="res-img/IMG-20220226-WA0001.jpg"
+                                    <img width="222" height="400" src="homeAssets/res-img/IMG-20220226-WA0001.jpg"
                                         class="attachment-medium size-medium" alt=""
                                         ids="1015,1018,1019,1020,1021,1022,1023" style="none" lightbox="false"
                                         columns="5" columns__sm="2"
-                                        srcset="res-img/IMG-20220226-WA0001.jpg 222w, res-img/IMG-20220226-WA0001.jpg 444w, res-img/IMG-20220226-WA0001.jpg 448w"
+                                        srcset="homeAssets/res-img/IMG-20220226-WA0001.jpg 222w, homeAssets/res-img/IMG-20220226-WA0001.jpg 444w, homeAssets/res-img/IMG-20220226-WA0001.jpg 448w"
                                         sizes="(max-width: 222px) 100vw, 222px">
                                 </noscript>
                             </div>
@@ -1498,17 +1498,17 @@
                             <div class="box-image">
                                 <img width="222" height="400" alt="" ids="1015,1018,1019,1020,1021,1022,1023"
                                     style="none" lightbox="false" columns="5" columns__sm="2"
-                                    data-srcset="homeAssets/res-img/FB_IMG_1645649512714.jpg 222w, /res-img/FB_IMG_1645649512714.jpg  444w, /res-img/FB_IMG_1645649512714.jpg  448w"
-                                    data-src="homeAssets/res-img/FB_IMG_1645649512714.jpg"
+                                    data-srcset="homeAssets/res-img/IMG_1645649512714.jpg 222w, homeAssets/res-img/IMG_1645649512714.jpg  444w, homeAssets/res-img/IMG_1645649512714.jpg  448w"
+                                    data-src="homeAssets/res-img/IMG_1645649512714.jpg"
                                     data-sizes="(max-width: 222px) 100vw, 222px"
                                     class="attachment-medium size-medium lazyload"
-                                    src="res-img/FB_IMG_1645649512714.jpg">
+                                    src="homeAssets/res-img/IMG_1645649512714.jpg">
                                 <noscript>
-                                    <img width="222" height="400" src="res-img/FB_IMG_1645649512714.jpg"
+                                    <img width="222" height="400" src="homeAssets/res-img/IMG_1645649512714.jpg"
                                         class="attachment-medium size-medium" alt=""
                                         ids="1015,1018,1019,1020,1021,1022,1023" style="none" lightbox="false"
                                         columns="5" columns__sm="2"
-                                        srcset="res-img/FB_IMG_1645649512714.jpg 222w, res-img/FB_IMG_1645649512714.jpg 444w, res-img/FB_IMG_1645649512714.jpg 448w"
+                                        srcset="homeAssets/res-img/IMG_1645649512714.jpg 222w, homeAssets/res-img/IMG_1645649512714.jpg 444w, homeAssets/res-img/IMG_1645649512714.jpg 448w"
                                         sizes="(max-width: 222px) 100vw, 222px">
                                 </noscript>
                             </div>
@@ -1524,17 +1524,17 @@
                             <div class="box-image">
                                 <img width="222" height="400" alt="" ids="1015,1018,1019,1020,1021,1022,1023"
                                     style="none" lightbox="false" columns="5" columns__sm="2"
-                                    data-srcset="homeAssets/res-img/FB_IMG_1645649528540.jpg 222w, /res-img/FB_IMG_1645649528540.jpg  444w, /res-img/FB_IMG_1645649528540.jpg  448w"
-                                    data-src="homeAssets/res-img/FB_IMG_1645649528540.jpg"
+                                    data-srcset="homeAssets/res-img/IMG_1645649528540.jpg 222w, homeAssets/res-img/IMG_1645649528540.jpg  444w, homeAssets/res-img/IMG_1645649528540.jpg  448w"
+                                    data-src="homeAssets/res-img/IMG_1645649528540.jpg"
                                     data-sizes="(max-width: 222px) 100vw, 222px"
                                     class="attachment-medium size-medium lazyload"
-                                    src="res-img/FB_IMG_1645649528540.jpg">
+                                    src="homeAssets/res-img/IMG_1645649528540.jpg">
                                 <noscript>
-                                    <img width="222" height="400" src="res-img/FB_IMG_1645649528540.jpg"
+                                    <img width="222" height="400" src="homeAssets/res-img/IMG_1645649528540.jpg"
                                         class="attachment-medium size-medium" alt=""
                                         ids="1015,1018,1019,1020,1021,1022,1023" style="none" lightbox="false"
                                         columns="5" columns__sm="2"
-                                        srcset="res-img/FB_IMG_1645649528540.jpg 222w, res-img/FB_IMG_1645649528540.jpg 444w, res-img/FB_IMG_1645649528540.jpg 448w"
+                                        srcset="homeAssets/res-img/IMG_1645649528540.jpg 222w, homeAssets/res-img/IMG_1645649528540.jpg 444w, homeAssets/res-img/IMG_1645649528540.jpg 448w"
                                         sizes="(max-width: 222px) 100vw, 222px">
                                 </noscript>
                             </div>
@@ -1550,17 +1550,17 @@
                             <div class="box-image">
                                 <img width="222" height="400" alt="" ids="1015,1018,1019,1020,1021,1022,1023"
                                     style="none" lightbox="false" columns="5" columns__sm="2"
-                                    data-srcset="homeAssets/res-img/FB_IMG_1646003483755.jpg 222w, /res-img/FB_IMG_1646003483755.jpg  444w, /res-img/FB_IMG_1646003483755.jpg  448w"
-                                    data-src="homeAssets/res-img/FB_IMG_1646003483755.jpg"
+                                    data-srcset="homeAssets/res-img/IMG_1646003483755.jpg 222w, homeAssets/res-img/IMG_1646003483755.jpg  444w, homeAssets/res-img/IMG_1646003483755.jpg  448w"
+                                    data-src="homeAssets/res-img/IMG_1646003483755.jpg"
                                     data-sizes="(max-width: 222px) 100vw, 222px"
                                     class="attachment-medium size-medium lazyload"
-                                    src="res-img/FB_IMG_1646003483755.jpg">
+                                    src="homeAssets/res-img/IMG_1646003483755.jpg">
                                 <noscript>
-                                    <img width="222" height="400" src="res-img/FB_IMG_1646003483755.jpg"
+                                    <img width="222" height="400" src="homeAssets/res-img/IMG_1646003483755.jpg"
                                         class="attachment-medium size-medium" alt=""
                                         ids="1015,1018,1019,1020,1021,1022,1023" style="none" lightbox="false"
                                         columns="5" columns__sm="2"
-                                        srcset="res-img/FB_IMG_1646003483755.jpg 222w, res-img/FB_IMG_1646003483755.jpg 444w, res-img/FB_IMG_1646003483755.jpg 448w"
+                                        srcset="homeAssets/res-img/IMG_1646003483755.jpg 222w, homeAssets/res-img/IMG_1646003483755.jpg 444w, homeAssets/res-img/IMG_1646003483755.jpg 448w"
                                         sizes="(max-width: 222px) 100vw, 222px">
                                 </noscript>
                             </div>
@@ -1576,17 +1576,17 @@
                             <div class="box-image">
                                 <img width="222" height="400" alt="" ids="1015,1018,1019,1020,1021,1022,1023"
                                     style="none" lightbox="false" columns="5" columns__sm="2"
-                                    data-srcset="homeAssets/res-img/FB_IMG_1646354554810.jpg 222w, /res-img/FB_IMG_1646354554810.jpg  444w, /res-img/FB_IMG_1646354554810.jpg  448w"
-                                    data-src="homeAssets/res-img/FB_IMG_1646354554810.jpg"
+                                    data-srcset="homeAssets/res-img/IMG_1646354554810.jpg 222w, homeAssets/res-img/IMG_1646354554810.jpg  444w, homeAssets/res-img/IMG_1646354554810.jpg  448w"
+                                    data-src="homeAssets/res-img/IMG_1646354554810.jpg"
                                     data-sizes="(max-width: 222px) 100vw, 222px"
                                     class="attachment-medium size-medium lazyload"
-                                    src="res-img/FB_IMG_1646354554810.jpg">
+                                    src="homeAssets/res-img/IMG_1646354554810.jpg">
                                 <noscript>
-                                    <img width="222" height="400" src="res-img/FB_IMG_1646354554810.jpg"
+                                    <img width="222" height="400" src="homeAssets/res-img/IMG_1646354554810.jpg"
                                         class="attachment-medium size-medium" alt=""
                                         ids="1015,1018,1019,1020,1021,1022,1023" style="none" lightbox="false"
                                         columns="5" columns__sm="2"
-                                        srcset="res-img/FB_IMG_1646354554810.jpg 222w, res-img/FB_IMG_1646354554810.jpg 444w, res-img/FB_IMG_1646354554810.jpg 448w"
+                                        srcset="homeAssets/res-img/IMG_1646354554810.jpg 222w, homeAssets/res-img/IMG_1646354554810.jpg 444w, homeAssets/res-img/IMG_1646354554810.jpg 448w"
                                         sizes="(max-width: 222px) 100vw, 222px">
                                 </noscript>
                             </div>
@@ -1602,17 +1602,17 @@
                             <div class="box-image">
                                 <img width="222" height="400" alt="" ids="1015,1018,1019,1020,1021,1022,1023"
                                     style="none" lightbox="false" columns="5" columns__sm="2"
-                                    data-srcset="homeAssets/res-img/FB_IMG_1646354557432.jpg 222w, /res-img/FB_IMG_1646354557432.jpg  444w, /res-img/FB_IMG_1646354557432.jpg  448w"
-                                    data-src="homeAssets/res-img/FB_IMG_1646354557432.jpg"
+                                    data-srcset="homeAssets/res-img/IMG_1646354557432.jpg 222w, homeAssets/res-img/IMG_1646354557432.jpg  444w, homeAssets/res-img/IMG_1646354557432.jpg  448w"
+                                    data-src="homeAssets/res-img/IMG_1646354557432.jpg"
                                     data-sizes="(max-width: 222px) 100vw, 222px"
                                     class="attachment-medium size-medium lazyload"
-                                    src="res-img/FB_IMG_1646354557432.jpg">
+                                    src="homeAssets/res-img/IMG_1646354557432.jpg">
                                 <noscript>
-                                    <img width="222" height="400" src="res-img/FB_IMG_1646354557432.jpg"
+                                    <img width="222" height="400" src="homeAssets/res-img/IMG_1646354557432.jpg"
                                         class="attachment-medium size-medium" alt=""
                                         ids="1015,1018,1019,1020,1021,1022,1023" style="none" lightbox="false"
                                         columns="5" columns__sm="2"
-                                        srcset="res-img/FB_IMG_1646354557432.jpg 222w, res-img/FB_IMG_1646354557432.jpg 444w, res-img/FB_IMG_1646354557432.jpg 448w"
+                                        srcset="homeAssets/res-img/IMG_1646354557432.jpg 222w, homeAssets/res-img/IMG_1646354557432.jpg 444w, homeAssets/res-img/IMG_1646354557432.jpg 448w"
                                         sizes="(max-width: 222px) 100vw, 222px">
                                 </noscript>
                             </div>
@@ -1628,44 +1628,17 @@
                             <div class="box-image">
                                 <img width="222" height="400" alt="" ids="1015,1018,1019,1020,1021,1022,1023"
                                     style="none" lightbox="false" columns="5" columns__sm="2"
-                                    data-srcset="homeAssets/res-img/FB_IMG_1646354559889.jpg 222w, /res-img/FB_IMG_1646354559889.jpg  444w, /res-img/FB_IMG_1646354559889.jpg  448w"
-                                    data-src="homeAssets/res-img/FB_IMG_1646354559889.jpg"
+                                    data-srcset="homeAssets/res-img/IMG_1646354559889.jpg 222w, homeAssets/res-img/IMG_1646354559889.jpg  444w, homeAssets/res-img/IMG_1646354559889.jpg  448w"
+                                    data-src="homeAssets/res-img/IMG_1646354559889.jpg"
                                     data-sizes="(max-width: 222px) 100vw, 222px"
                                     class="attachment-medium size-medium lazyload"
-                                    src="res-img/FB_IMG_1646354559889.jpg">
+                                    src="homeAssets/res-img/IMG_1646354559889.jpg">
                                 <noscript>
-                                    <img width="222" height="400" src="res-img/FB_IMG_1646354559889.jpg"
+                                    <img width="222" height="400" src="homeAssets/res-img/IMG_1646354559889.jpg"
                                         class="attachment-medium size-medium" alt=""
                                         ids="1015,1018,1019,1020,1021,1022,1023" style="none" lightbox="false"
                                         columns="5" columns__sm="2"
-                                        srcset="res-img/FB_IMG_1646354559889.jpg 222w, res-img/FB_IMG_1646354559889.jpg 444w, res-img/FB_IMG_1646354559889.jpg 448w"
-                                        sizes="(max-width: 222px) 100vw, 222px">
-                                </noscript>
-                            </div>
-                            <div class="box-text text-left">
-                                <p>BeginnersFba</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="gallery-col col">
-                    <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-                            <div class="box-image">
-                                <img width="222" height="400" alt="" ids="1015,1018,1019,1020,1021,1022,1023"
-                                    style="none" lightbox="false" columns="5" columns__sm="2"
-                                    data-srcset="homeAssets/res-img/FB_IMG_1645187573759.jpg 222w, /res-img/FB_IMG_1645187573759.jpg  444w, /res-img/FB_IMG_1645187573759.jpg  448w"
-                                    data-src="homeAssets/res-img/FB_IMG_1645187573759.jpg"
-                                    data-sizes="(max-width: 222px) 100vw, 222px"
-                                    class="attachment-medium size-medium lazyload"
-                                    src="res-img/FB_IMG_1645187573759.jpg">
-                                <noscript>
-                                    <img width="222" height="400" src="res-img/FB_IMG_1645187573759.jpg"
-                                        class="attachment-medium size-medium" alt=""
-                                        ids="1015,1018,1019,1020,1021,1022,1023" style="none" lightbox="false"
-                                        columns="5" columns__sm="2"
-                                        srcset="res-img/FB_IMG_1645187573759.jpg 222w, res-img/FB_IMG_1645187573759.jpg 444w, res-img/FB_IMG_1645187573759.jpg 448w"
+                                        srcset="homeAssets/res-img/IMG_1646354559889.jpg 222w, homeAssets/res-img/IMG_1646354559889.jpg 444w, homeAssets/res-img/IMG_1646354559889.jpg 448w"
                                         sizes="(max-width: 222px) 100vw, 222px">
                                 </noscript>
                             </div>
@@ -1682,17 +1655,17 @@
                             <div class="box-image">
                                 <img width="222" height="400" alt="" ids="1015,1018,1019,1020,1021,1022,1023"
                                     style="none" lightbox="false" columns="5" columns__sm="2"
-                                    data-srcset="homeAssets/res-img/FB_IMG_1645187606270.jpg 222w, /res-img/FB_IMG_1645187606270.jpg  444w, /res-img/FB_IMG_1645187606270.jpg  448w"
-                                    data-src="homeAssets/res-img/FB_IMG_1645187606270.jpg"
+                                    data-srcset="homeAssets/res-img/IMG_1645187573759.jpg 222w, homeAssets/res-img/IMG_1645187573759.jpg  444w, homeAssets/res-img/IMG_1645187573759.jpg  448w"
+                                    data-src="homeAssets/res-img/IMG_1645187573759.jpg"
                                     data-sizes="(max-width: 222px) 100vw, 222px"
                                     class="attachment-medium size-medium lazyload"
-                                    src="res-img/FB_IMG_1645187606270.jpg">
+                                    src="homeAssets/res-img/IMG_1645187573759.jpg">
                                 <noscript>
-                                    <img width="222" height="400" src="res-img/FB_IMG_1645187606270.jpg"
+                                    <img width="222" height="400" src="homeAssets/res-img/IMG_1645187573759.jpg"
                                         class="attachment-medium size-medium" alt=""
                                         ids="1015,1018,1019,1020,1021,1022,1023" style="none" lightbox="false"
                                         columns="5" columns__sm="2"
-                                        srcset="res-img/FB_IMG_1645187606270.jpg 222w, res-img/FB_IMG_1645187606270.jpg 444w, res-img/FB_IMG_1645187606270.jpg 448w"
+                                        srcset="homeAssets/res-img/IMG_1645187573759.jpg 222w, homeAssets/res-img/IMG_1645187573759.jpg 444w, homeAssets/res-img/IMG_1645187573759.jpg 448w"
                                         sizes="(max-width: 222px) 100vw, 222px">
                                 </noscript>
                             </div>
@@ -1709,17 +1682,17 @@
                             <div class="box-image">
                                 <img width="222" height="400" alt="" ids="1015,1018,1019,1020,1021,1022,1023"
                                     style="none" lightbox="false" columns="5" columns__sm="2"
-                                    data-srcset="homeAssets/res-img/FB_IMG_1645269775304.jpg 222w, /res-img/FB_IMG_1645269775304.jpg  444w, /res-img/FB_IMG_1645269775304.jpg  448w"
-                                    data-src="homeAssets/res-img/FB_IMG_1645269775304.jpg"
+                                    data-srcset="homeAssets/res-img/IMG_1645187606270.jpg 222w, homeAssets/res-img/IMG_1645187606270.jpg  444w, homeAssets/res-img/IMG_1645187606270.jpg  448w"
+                                    data-src="homeAssets/res-img/IMG_1645187606270.jpg"
                                     data-sizes="(max-width: 222px) 100vw, 222px"
                                     class="attachment-medium size-medium lazyload"
-                                    src="res-img/FB_IMG_1645269775304.jpg">
+                                    src="homeAssets/res-img/IMG_1645187606270.jpg">
                                 <noscript>
-                                    <img width="222" height="400" src="res-img/FB_IMG_1645269775304.jpg"
+                                    <img width="222" height="400" src="homeAssets/res-img/IMG_1645187606270.jpg"
                                         class="attachment-medium size-medium" alt=""
                                         ids="1015,1018,1019,1020,1021,1022,1023" style="none" lightbox="false"
                                         columns="5" columns__sm="2"
-                                        srcset="res-img/FB_IMG_1645269775304.jpg 222w, res-img/FB_IMG_1645269775304.jpg 444w, res-img/FB_IMG_1645269775304.jpg 448w"
+                                        srcset="homeAssets/res-img/IMG_1645187606270.jpg 222w, homeAssets/res-img/IMG_1645187606270.jpg 444w, homeAssets/res-img/IMG_1645187606270.jpg 448w"
                                         sizes="(max-width: 222px) 100vw, 222px">
                                 </noscript>
                             </div>
@@ -1736,17 +1709,17 @@
                             <div class="box-image">
                                 <img width="222" height="400" alt="" ids="1015,1018,1019,1020,1021,1022,1023"
                                     style="none" lightbox="false" columns="5" columns__sm="2"
-                                    data-srcset="homeAssets/res-img/FB_IMG_1645418624268.jpg 222w, /res-img/FB_IMG_1645418624268.jpg  444w, /res-img/FB_IMG_1645418624268.jpg  448w"
-                                    data-src="homeAssets/res-img/FB_IMG_1645418624268.jpg"
+                                    data-srcset="homeAssets/res-img/IMG_1645269775304.jpg 222w, homeAssets/res-img/IMG_1645269775304.jpg  444w, homeAssets/res-img/IMG_1645269775304.jpg  448w"
+                                    data-src="homeAssets/res-img/IMG_1645269775304.jpg"
                                     data-sizes="(max-width: 222px) 100vw, 222px"
                                     class="attachment-medium size-medium lazyload"
-                                    src="res-img/FB_IMG_1645418624268.jpg">
+                                    src="homeAssets/res-img/IMG_1645269775304.jpg">
                                 <noscript>
-                                    <img width="222" height="400" src="res-img/FB_IMG_1645418624268.jpg"
+                                    <img width="222" height="400" src="homeAssets/res-img/IMG_1645269775304.jpg"
                                         class="attachment-medium size-medium" alt=""
                                         ids="1015,1018,1019,1020,1021,1022,1023" style="none" lightbox="false"
                                         columns="5" columns__sm="2"
-                                        srcset="res-img/FB_IMG_1645418624268.jpg 222w, res-img/FB_IMG_1645418624268.jpg 444w, res-img/FB_IMG_1645418624268.jpg 448w"
+                                        srcset="homeAssets/res-img/IMG_1645269775304.jpg 222w, homeAssets/res-img/IMG_1645269775304.jpg 444w, homeAssets/res-img/IMG_1645269775304.jpg 448w"
                                         sizes="(max-width: 222px) 100vw, 222px">
                                 </noscript>
                             </div>
@@ -1763,17 +1736,17 @@
                             <div class="box-image">
                                 <img width="222" height="400" alt="" ids="1015,1018,1019,1020,1021,1022,1023"
                                     style="none" lightbox="false" columns="5" columns__sm="2"
-                                    data-srcset="homeAssets/res-img/FB_IMG_1645649512714.jpg 222w, /res-img/FB_IMG_1645649512714.jpg  444w, /res-img/FB_IMG_1645649512714.jpg  448w"
-                                    data-src="homeAssets/res-img/FB_IMG_1645649512714.jpg"
+                                    data-srcset="homeAssets/res-img/IMG_1645418624268.jpg 222w, homeAssets/res-img/IMG_1645418624268.jpg  444w, homeAssets/res-img/IMG_1645418624268.jpg  448w"
+                                    data-src="homeAssets/res-img/IMG_1645418624268.jpg"
                                     data-sizes="(max-width: 222px) 100vw, 222px"
                                     class="attachment-medium size-medium lazyload"
-                                    src="res-img/FB_IMG_1645649512714.jpg">
+                                    src="homeAssets/res-img/IMG_1645418624268.jpg">
                                 <noscript>
-                                    <img width="222" height="400" src="res-img/FB_IMG_1645649512714.jpg"
+                                    <img width="222" height="400" src="homeAssets/res-img/IMG_1645418624268.jpg"
                                         class="attachment-medium size-medium" alt=""
                                         ids="1015,1018,1019,1020,1021,1022,1023" style="none" lightbox="false"
                                         columns="5" columns__sm="2"
-                                        srcset="res-img/FB_IMG_1645649512714.jpg 222w, res-img/FB_IMG_1645649512714.jpg 444w, res-img/FB_IMG_1645649512714.jpg 448w"
+                                        srcset="homeAssets/res-img/IMG_1645418624268.jpg 222w, homeAssets/res-img/IMG_1645418624268.jpg 444w, homeAssets/res-img/IMG_1645418624268.jpg 448w"
                                         sizes="(max-width: 222px) 100vw, 222px">
                                 </noscript>
                             </div>
@@ -1790,17 +1763,17 @@
                             <div class="box-image">
                                 <img width="222" height="400" alt="" ids="1015,1018,1019,1020,1021,1022,1023"
                                     style="none" lightbox="false" columns="5" columns__sm="2"
-                                    data-srcset="homeAssets/res-img/FB_IMG_1645666955056.jpg 222w, /res-img/FB_IMG_1645666955056.jpg  444w, /res-img/FB_IMG_1645666955056.jpg  448w"
-                                    data-src="homeAssets/res-img/FB_IMG_1645666955056.jpg"
+                                    data-srcset="homeAssets/res-img/IMG_1645649512714.jpg 222w, homeAssets/res-img/IMG_1645649512714.jpg  444w, homeAssets/res-img/IMG_1645649512714.jpg  448w"
+                                    data-src="homeAssets/res-img/IMG_1645649512714.jpg"
                                     data-sizes="(max-width: 222px) 100vw, 222px"
                                     class="attachment-medium size-medium lazyload"
-                                    src="res-img/FB_IMG_1645666955056.jpg">
+                                    src="homeAssets/res-img/IMG_1645649512714.jpg">
                                 <noscript>
-                                    <img width="222" height="400" src="res-img/FB_IMG_1645666955056.jpg"
+                                    <img width="222" height="400" src="homeAssets/res-img/IMG_1645649512714.jpg"
                                         class="attachment-medium size-medium" alt=""
                                         ids="1015,1018,1019,1020,1021,1022,1023" style="none" lightbox="false"
                                         columns="5" columns__sm="2"
-                                        srcset="res-img/FB_IMG_1645666955056.jpg 222w, res-img/FB_IMG_1645666955056.jpg 444w, res-img/FB_IMG_1645666955056.jpg 448w"
+                                        srcset="homeAssets/res-img/IMG_1645649512714.jpg 222w, homeAssets/res-img/IMG_1645649512714.jpg 444w, homeAssets/res-img/IMG_1645649512714.jpg 448w"
                                         sizes="(max-width: 222px) 100vw, 222px">
                                 </noscript>
                             </div>
@@ -1817,17 +1790,17 @@
                             <div class="box-image">
                                 <img width="222" height="400" alt="" ids="1015,1018,1019,1020,1021,1022,1023"
                                     style="none" lightbox="false" columns="5" columns__sm="2"
-                                    data-srcset="homeAssets/res-img/FB_IMG_1646081001238.jpg 222w, /res-img/FB_IMG_1646081001238.jpg  444w, /res-img/FB_IMG_1646081001238.jpg  448w"
-                                    data-src="homeAssets/res-img/FB_IMG_1646081001238.jpg"
+                                    data-srcset="homeAssets/res-img/IMG_1645666955056.jpg 222w, homeAssets/res-img/IMG_1645666955056.jpg  444w, homeAssets/res-img/IMG_1645666955056.jpg  448w"
+                                    data-src="homeAssets/res-img/IMG_1645666955056.jpg"
                                     data-sizes="(max-width: 222px) 100vw, 222px"
                                     class="attachment-medium size-medium lazyload"
-                                    src="res-img/FB_IMG_1646081001238.jpg">
+                                    src="homeAssets/res-img/IMG_1645666955056.jpg">
                                 <noscript>
-                                    <img width="222" height="400" src="res-img/FB_IMG_1646081001238.jpg"
+                                    <img width="222" height="400" src="homeAssets/res-img/IMG_1645666955056.jpg"
                                         class="attachment-medium size-medium" alt=""
                                         ids="1015,1018,1019,1020,1021,1022,1023" style="none" lightbox="false"
                                         columns="5" columns__sm="2"
-                                        srcset="res-img/FB_IMG_1646081001238.jpg 222w, res-img/FB_IMG_1646081001238.jpg 444w, res-img/FB_IMG_1646081001238.jpg 448w"
+                                        srcset="homeAssets/res-img/IMG_1645666955056.jpg 222w, homeAssets/res-img/IMG_1645666955056.jpg 444w, homeAssets/res-img/IMG_1645666955056.jpg 448w"
                                         sizes="(max-width: 222px) 100vw, 222px">
                                 </noscript>
                             </div>
@@ -1844,17 +1817,44 @@
                             <div class="box-image">
                                 <img width="222" height="400" alt="" ids="1015,1018,1019,1020,1021,1022,1023"
                                     style="none" lightbox="false" columns="5" columns__sm="2"
-                                    data-srcset="homeAssets/res-img/FB_IMG_1646354554810.jpg 222w, /res-img/FB_IMG_1646354554810.jpg  444w, /res-img/FB_IMG_1646354554810.jpg  448w"
-                                    data-src="homeAssets/res-img/FB_IMG_1646354554810.jpg"
+                                    data-srcset="homeAssets/res-img/IMG_1646081001238.jpg 222w, homeAssets/res-img/IMG_1646081001238.jpg  444w, homeAssets/res-img/IMG_1646081001238.jpg  448w"
+                                    data-src="homeAssets/res-img/IMG_1646081001238.jpg"
                                     data-sizes="(max-width: 222px) 100vw, 222px"
                                     class="attachment-medium size-medium lazyload"
-                                    src="res-img/FB_IMG_1646354554810.jpg">
+                                    src="homeAssets/res-img/IMG_1646081001238.jpg">
                                 <noscript>
-                                    <img width="222" height="400" src="res-img/FB_IMG_1646354554810.jpg"
+                                    <img width="222" height="400" src="homeAssets/res-img/IMG_1646081001238.jpg"
                                         class="attachment-medium size-medium" alt=""
                                         ids="1015,1018,1019,1020,1021,1022,1023" style="none" lightbox="false"
                                         columns="5" columns__sm="2"
-                                        srcset="res-img/FB_IMG_1646354554810.jpg 222w, res-img/FB_IMG_1646354554810.jpg 444w, res-img/FB_IMG_1646354554810.jpg 448w"
+                                        srcset="homeAssets/res-img/IMG_1646081001238.jpg 222w, homeAssets/res-img/IMG_1646081001238.jpg 444w, homeAssets/res-img/IMG_1646081001238.jpg 448w"
+                                        sizes="(max-width: 222px) 100vw, 222px">
+                                </noscript>
+                            </div>
+                            <div class="box-text text-left">
+                                <p>BeginnersFba</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-col col">
+                    <div class="col-inner">
+                        <div class="box has-hover gallery-box box-none">
+                            <div class="box-image">
+                                <img width="222" height="400" alt="" ids="1015,1018,1019,1020,1021,1022,1023"
+                                    style="none" lightbox="false" columns="5" columns__sm="2"
+                                    data-srcset="homeAssets/res-img/IMG_1646354554810.jpg 222w, homeAssets/res-img/IMG_1646354554810.jpg  444w, homeAssets/res-img/IMG_1646354554810.jpg  448w"
+                                    data-src="homeAssets/res-img/IMG_1646354554810.jpg"
+                                    data-sizes="(max-width: 222px) 100vw, 222px"
+                                    class="attachment-medium size-medium lazyload"
+                                    src="homeAssets/res-img/IMG_1646354554810.jpg">
+                                <noscript>
+                                    <img width="222" height="400" src="homeAssets/res-img/IMG_1646354554810.jpg"
+                                        class="attachment-medium size-medium" alt=""
+                                        ids="1015,1018,1019,1020,1021,1022,1023" style="none" lightbox="false"
+                                        columns="5" columns__sm="2"
+                                        srcset="homeAssets/res-img/IMG_1646354554810.jpg 222w, homeAssets/res-img/IMG_1646354554810.jpg 444w, homeAssets/res-img/IMG_1646354554810.jpg 448w"
                                         sizes="(max-width: 222px) 100vw, 222px">
                                 </noscript>
                             </div>
@@ -1924,10 +1924,10 @@
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                                     <noscript>
                                         <img width="762" height="741"
-                                            src="wp-content/uploads/2021/05/ellie-joseph-min.png"
+                                            src="homeAssets/wp-content/uploads/2021/05/ellie-joseph-min.png"
                                             class="attachment-large size-large" alt=""
                                             srcset="
-                                                    wp-content/uploads/2021/05/ellie-joseph-min.png         762w,homeAssets/wp-content/uploads/2021/05/ellie-joseph-min-411x400.png,homeAssets/wp-content/uploads/2021/05/ellie-joseph-min-600x583.png 600w"
+                                                    homeAssets/wp-content/uploads/2021/05/ellie-joseph-min.png         762w,homeAssets/wp-content/uploads/2021/05/ellie-joseph-min-411x400.png,homeAssets/wp-content/uploads/2021/05/ellie-joseph-min-600x583.png 600w"
                                             sizes="(max-width: 762px) 100vw, 762px">
                                     </noscript>
                                 </div>
@@ -1953,10 +1953,10 @@
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                                     <noscript>
                                         <img width="800" height="800"
-                                            src="wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min-800x800.jpg"
+                                            src="homeAssets/wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min-800x800.jpg"
                                             class="attachment-large size-large" alt=""
                                             srcset="
-                                                    wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min-800x800.jpg 800w,homeAssets/wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min-400x400.jpg,homeAssets/wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min-280x280.jpg,homeAssets/wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min-768x768.jpg,homeAssets/wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min-300x300.jpg,homeAssets/wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min-600x600.jpg,homeAssets/wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min-100x100.jpg,homeAssets/wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min.jpg    810w"
+                                                    homeAssets/wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min-800x800.jpg 800w,homeAssets/wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min-400x400.jpg,homeAssets/wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min-280x280.jpg,homeAssets/wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min-768x768.jpg,homeAssets/wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min-300x300.jpg,homeAssets/wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min-600x600.jpg,homeAssets/wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min-100x100.jpg,homeAssets/wp-content/uploads/2021/05/b75247ee-1129-4427-8a04-cbc6d32177e5-min.jpg    810w"
                                             sizes="(max-width: 800px) 100vw, 800px">
                                     </noscript>
                                 </div>
@@ -1990,10 +1990,10 @@
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                                     <noscript>
                                         <img width="709" height="472"
-                                            src="wp-content/uploads/2021/05/d861cbcd-6052-4865-b787-90889ca73f1b-min.jpg"
+                                            src="homeAssets/wp-content/uploads/2021/05/d861cbcd-6052-4865-b787-90889ca73f1b-min.jpg"
                                             class="attachment-large size-large" alt=""
                                             srcset="
-                                                    wp-content/uploads/2021/05/d861cbcd-6052-4865-b787-90889ca73f1b-min.jpg         709w,homeAssets/wp-content/uploads/2021/05/d861cbcd-6052-4865-b787-90889ca73f1b-min-601x400.jpg,homeAssets/wp-content/uploads/2021/05/d861cbcd-6052-4865-b787-90889ca73f1b-min-600x399.jpg 600w"
+                                                    homeAssets/wp-content/uploads/2021/05/d861cbcd-6052-4865-b787-90889ca73f1b-min.jpg         709w,homeAssets/wp-content/uploads/2021/05/d861cbcd-6052-4865-b787-90889ca73f1b-min-601x400.jpg,homeAssets/wp-content/uploads/2021/05/d861cbcd-6052-4865-b787-90889ca73f1b-min-600x399.jpg 600w"
                                             sizes="(max-width: 709px) 100vw, 709px">
                                     </noscript>
                                 </div>
@@ -2019,10 +2019,10 @@
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                                     <noscript>
                                         <img width="1020" height="377"
-                                            src="wp-content/uploads/2021/05/esre-min-1400x518.jpg"
+                                            src="homeAssets/wp-content/uploads/2021/05/esre-min-1400x518.jpg"
                                             class="attachment-large size-large" alt=""
                                             srcset="
-                                                    wp-content/uploads/2021/05/esre-min-1400x518.jpg 1400w,homeAssets/wp-content/uploads/2021/05/esre-min-800x296.jpg,homeAssets/wp-content/uploads/2021/05/esre-min-768x284.jpg,homeAssets/wp-content/uploads/2021/05/esre-min-1536x568.jpg,homeAssets/wp-content/uploads/2021/05/esre-min-600x222.jpg,homeAssets/wp-content/uploads/2021/05/esre-min.jpg   1600w"
+                                                    homeAssets/wp-content/uploads/2021/05/esre-min-1400x518.jpg 1400w,homeAssets/wp-content/uploads/2021/05/esre-min-800x296.jpg,homeAssets/wp-content/uploads/2021/05/esre-min-768x284.jpg,homeAssets/wp-content/uploads/2021/05/esre-min-1536x568.jpg,homeAssets/wp-content/uploads/2021/05/esre-min-600x222.jpg,homeAssets/wp-content/uploads/2021/05/esre-min.jpg   1600w"
                                             sizes="(max-width: 1020px) 100vw, 1020px">
                                     </noscript>
                                 </div>
@@ -2054,10 +2054,10 @@
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                                     <noscript>
                                         <img width="1020" height="789"
-                                            src="wp-content/uploads/2021/05/73366405-e069-43a6-9cc7-ee408f4eb6ed-min-1034x800.jpg"
+                                            src="homeAssets/wp-content/uploads/2021/05/73366405-e069-43a6-9cc7-ee408f4eb6ed-min-1034x800.jpg"
                                             class="attachment-large size-large" alt=""
                                             srcset="
-                                                    wp-content/uploads/2021/05/73366405-e069-43a6-9cc7-ee408f4eb6ed-min-1034x800.jpg  1034w,homeAssets/wp-content/uploads/2021/05/73366405-e069-43a6-9cc7-ee408f4eb6ed-min-517x400.jpg,homeAssets/wp-content/uploads/2021/05/73366405-e069-43a6-9cc7-ee408f4eb6ed-min-768x594.jpg,homeAssets/wp-content/uploads/2021/05/73366405-e069-43a6-9cc7-ee408f4eb6ed-min-1536x1188.jpg,homeAssets/wp-content/uploads/2021/05/73366405-e069-43a6-9cc7-ee408f4eb6ed-min-600x464.jpg,homeAssets/wp-content/uploads/2021/05/73366405-e069-43a6-9cc7-ee408f4eb6ed-min.jpg  1600w"
+                                                    homeAssets/wp-content/uploads/2021/05/73366405-e069-43a6-9cc7-ee408f4eb6ed-min-1034x800.jpg  1034w,homeAssets/wp-content/uploads/2021/05/73366405-e069-43a6-9cc7-ee408f4eb6ed-min-517x400.jpg,homeAssets/wp-content/uploads/2021/05/73366405-e069-43a6-9cc7-ee408f4eb6ed-min-768x594.jpg,homeAssets/wp-content/uploads/2021/05/73366405-e069-43a6-9cc7-ee408f4eb6ed-min-1536x1188.jpg,homeAssets/wp-content/uploads/2021/05/73366405-e069-43a6-9cc7-ee408f4eb6ed-min-600x464.jpg,homeAssets/wp-content/uploads/2021/05/73366405-e069-43a6-9cc7-ee408f4eb6ed-min.jpg  1600w"
                                             sizes="(max-width: 1020px) 100vw, 1020px">
                                     </noscript>
                                 </div>
@@ -2090,10 +2090,10 @@
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                                     <noscript>
                                         <img width="1020" height="687"
-                                            src="wp-content/uploads/2021/05/31ec3ae1-462c-454e-a7ce-330c0a46993b-min-1188x800.jpg"
+                                            src="homeAssets/wp-content/uploads/2021/05/31ec3ae1-462c-454e-a7ce-330c0a46993b-min-1188x800.jpg"
                                             class="attachment-large size-large" alt=""
                                             srcset="
-                                                    wp-content/uploads/2021/05/31ec3ae1-462c-454e-a7ce-330c0a46993b-min-1188x800.jpg 1188w,homeAssets/wp-content/uploads/2021/05/31ec3ae1-462c-454e-a7ce-330c0a46993b-min-594x400.jpg,homeAssets/wp-content/uploads/2021/05/31ec3ae1-462c-454e-a7ce-330c0a46993b-min-768x517.jpg,homeAssets/wp-content/uploads/2021/05/31ec3ae1-462c-454e-a7ce-330c0a46993b-min-600x404.jpg,homeAssets/wp-content/uploads/2021/05/31ec3ae1-462c-454e-a7ce-330c0a46993b-min.jpg          1421w"
+                                                    homeAssets/wp-content/uploads/2021/05/31ec3ae1-462c-454e-a7ce-330c0a46993b-min-1188x800.jpg 1188w,homeAssets/wp-content/uploads/2021/05/31ec3ae1-462c-454e-a7ce-330c0a46993b-min-594x400.jpg,homeAssets/wp-content/uploads/2021/05/31ec3ae1-462c-454e-a7ce-330c0a46993b-min-768x517.jpg,homeAssets/wp-content/uploads/2021/05/31ec3ae1-462c-454e-a7ce-330c0a46993b-min-600x404.jpg,homeAssets/wp-content/uploads/2021/05/31ec3ae1-462c-454e-a7ce-330c0a46993b-min.jpg          1421w"
                                             sizes="(max-width: 1020px) 100vw, 1020px">
                                     </noscript>
                                 </div>
@@ -2137,7 +2137,7 @@
                                                 class="attachment- size- lazyload"
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                                             <noscript><img width="300" height="182"
-                                                    src="wp-content/uploads/2021/02/2426351-scaled-e1640567682836.jpg"
+                                                    src="homeAssets/wp-content/uploads/2021/02/2426351-scaled-e1640567682836.jpg"
                                                     class="attachment- size-"
                                                     alt="BeginnersFba product research"></noscript>
                                             <div class="overlay" style="background-color: rgba(0, 0, 0, 0);">
@@ -2238,7 +2238,7 @@
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                                             <noscript>
                                                 <img width="300" height="300"
-                                                    src="wp-content/uploads/2021/02/3413911-e1640567335622.jpg"
+                                                    src="homeAssets/wp-content/uploads/2021/02/3413911-e1640567335622.jpg"
                                                     class="attachment- size-"
                                                     alt="BeginnersFba keyword consultants alibaba suppliers">
                                             </noscript>
@@ -2286,7 +2286,7 @@
                                                 class="attachment- size- lazyload"
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                                             <noscript><img width="300" height="266"
-                                                    src="wp-content/uploads/2021/02/227q-min-e1640567392198.png"
+                                                    src="homeAssets/wp-content/uploads/2021/02/227q-min-e1640567392198.png"
                                                     class="attachment- size-"
                                                     alt="BeginnersFba keyword optimization"></noscript>
                                             <div class="overlay" style="background-color: rgba(0, 0, 0, 0);">
@@ -2384,7 +2384,7 @@
                                                 class="attachment- size- lazyload"
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                                             <noscript><img width="300" height="273"
-                                                    src="wp-content/uploads/2021/02/2456038-min-e1640567715432.jpg"
+                                                    src="homeAssets/wp-content/uploads/2021/02/2456038-min-e1640567715432.jpg"
                                                     class="attachment- size-" alt=""></noscript>
                                             <div class="overlay" style="background-color: rgba(0, 0, 0, 0);">
                                             </div>
@@ -2431,7 +2431,7 @@
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                                             <noscript>
                                                 <img width="300" height="200"
-                                                    src="wp-content/uploads/2021/02/20943905-min-1-e1640567604547.jpg"
+                                                    src="homeAssets/wp-content/uploads/2021/02/20943905-min-1-e1640567604547.jpg"
                                                     class="attachment- size-" alt="BeginnersFba keyword consultants">
                                             </noscript>
                                             <div class="overlay" style="background-color: rgba(0, 0, 0, 0);">
@@ -2540,7 +2540,7 @@
         <div class="row row-small" id="row-662531923">
             <div id="col-115932398" class="col small-12 large-12">
                 <div class="col-inner text-center">
-                    <a data-animate="bounceIn" href="booking/index.htm" target="_self" class="button primary"
+                    <a data-animate="bounceIn" href="booking" target="_self" class="button primary"
                         style="border-radius: 99px;">
                         <span>I AM INTERESTED STARTING MY ECOMMERCE BUSINESS</span>
                     </a>
@@ -2585,7 +2585,7 @@
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                             <noscript>
                                 <img width="1020" height="140"
-                                    src="wp-content/uploads/2020/12/WordmarkLogo_WhiteBG-1400x192.png"
+                                    src="homeAssets/wp-content/uploads/2020/12/WordmarkLogo_WhiteBG-1400x192.png"
                                     class="attachment-large size-large" alt="" srcset="
                                             wp-content/uploads/2020/12/WordmarkLogo_WhiteBG-1400x192.png 1400w,homeAssets/wp-content/uploads/2020/12/WordmarkLogo_WhiteBG-600x82.png,homeAssets/wp-content/uploads/2020/12/WordmarkLogo_WhiteBG-800x110.png,homeAssets/wp-content/uploads/2020/12/WordmarkLogo_WhiteBG-768x105.png,homeAssets/wp-content/uploads/2020/12/WordmarkLogo_WhiteBG.png          1490w" sizes="(max-width: 1020px) 100vw, 1020px">
                             </noscript>
@@ -2612,7 +2612,7 @@
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                             <noscript>
                                 <img width="1020" height="170"
-                                    src="wp-content/uploads/2020/12/MerchantWords_logo_horizontal_purple.png"
+                                    src="homeAssets/wp-content/uploads/2020/12/MerchantWords_logo_horizontal_purple.png"
                                     class="attachment-large size-large" alt="" srcset="
                                             wp-content/uploads/2020/12/MerchantWords_logo_horizontal_purple.png         1200w,homeAssets/wp-content/uploads/2020/12/MerchantWords_logo_horizontal_purple-600x100.png,homeAssets/wp-content/uploads/2020/12/MerchantWords_logo_horizontal_purple-800x133.png,homeAssets/wp-content/uploads/2020/12/MerchantWords_logo_horizontal_purple-768x128.png  768w" sizes="(max-width: 1020px) 100vw, 1020px">
                             </noscript>
@@ -2639,7 +2639,7 @@
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                             <noscript>
                                 <img width="1020" height="168"
-                                    src="wp-content/uploads/2020/12/2-colors-light-bg%402x.png"
+                                    src="homeAssets/wp-content/uploads/2020/12/2-colors-light-bg%402x.png"
                                     class="attachment-large size-large" alt="" srcset="
                                             wp-content/uploads/2020/12/2-colors-light-bg%402x-1.png         1056w,homeAssets/wp-content/uploads/2020/12/2-colors-light-bg@2x-600x99.png,homeAssets/wp-content/uploads/2020/12/2-colors-light-bg@2x-800x132.png,homeAssets/wp-content/uploads/2020/12/2-colors-light-bg@2x-768x127.png  768w" sizes="(max-width: 1020px) 100vw, 1020px">
                             </noscript>
@@ -2663,7 +2663,7 @@
                                 class="attachment-large size-large lazyload"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                             <noscript><img width="299" height="71"
-                                    src="wp-content/uploads/2020/12/KeywordTool-logo-1.png"
+                                    src="homeAssets/wp-content/uploads/2020/12/KeywordTool-logo-1.png"
                                     class="attachment-large size-large" alt=""></noscript>
                         </div>
 
@@ -2687,7 +2687,7 @@
                                 class="attachment-large size-large lazyload"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                             <noscript>
-                                <img width="1020" height="512" src="wp-content/uploads/2020/12/logo-color-1400x703.png"
+                                <img width="1020" height="512" src="homeAssets/wp-content/uploads/2020/12/logo-color-1400x703.png"
                                     class="attachment-large size-large" alt="" srcset="
                                             wp-content/uploads/2020/12/logo-color-1400x703.png  1400w,homeAssets/wp-content/uploads/2020/12/logo-color-600x301.png,homeAssets/wp-content/uploads/2020/12/logo-color-796x400.png,homeAssets/wp-content/uploads/2020/12/logo-color-768x386.png,homeAssets/wp-content/uploads/2020/12/logo-color-1536x772.png,homeAssets/wp-content/uploads/2020/12/logo-color-2048x1029.png 2048w" sizes="(max-width: 1020px) 100vw, 1020px">
                             </noscript>
@@ -2713,7 +2713,7 @@
                                 class="attachment-large size-large lazyload"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                             <noscript>
-                                <img width="768" height="203" src="wp-content/uploads/2020/12/keepa-logo-768x203-2.png"
+                                <img width="768" height="203" src="homeAssets/wp-content/uploads/2020/12/keepa-logo-768x203-2.png"
                                     class="attachment-large size-large" alt=""
                                     srcset="wp-content/uploads/2020/12/keepa-logo-768x203-2.png 768w,homeAssets/wp-content/uploads/2020/12/keepa-logo-768x203-2-600x159.png"
                                     sizes="(max-width: 768px) 100vw, 768px">
@@ -2832,7 +2832,7 @@
         </section>
 
         <div class="container section-title-container" style="margin-top: 22px;">
-            <h3 class="section-title section-title-center"><b></b><span class="section-title-main">LAtest
+            <h3 class="section-title section-title-center"><b></b><span class="section-title-main">Latest
                     posts</span><b></b></h3>
         </div>
 
@@ -2840,7 +2840,7 @@
             data-packery-options='{"itemSelector": ".col", "gutter": 0, "presentageWidth" : true}'>
             <div class="col post-item">
                 <div class="col-inner">
-                    <a href="readymade-7000-drop-shipping-suppliers-in-usa-download-link/index.html" class="plain">
+                    <a href="readymade-7000-drop-shipping-suppliers-in-usa-download-link" class="plain">
                         <div class="box box-default box-text-bottom box-blog-post has-hover">
                             <div class="box-text text-center">
                                 <div class="box-text-inner blog-post-inner">
@@ -2858,7 +2858,7 @@
             </div>
             <div class="col post-item">
                 <div class="col-inner">
-                    <a href="how-to-fix-amazon-seller-error-5665-without-brand-registry/index.html" class="plain">
+                    <a href="how-to-fix-amazon-seller-error-5665-without-brand-registry" class="plain">
                         <div class="box box-default box-text-bottom box-blog-post has-hover">
                             <div class="box-text text-center">
                                 <div class="box-text-inner blog-post-inner">
@@ -2876,7 +2876,7 @@
             </div>
             <div class="col post-item">
                 <div class="col-inner">
-                    <a href="how-to-launch-your-first-product-on-amazon-in-2021/index.html" class="plain">
+                    <a href="how-to-launch-your-first-product-on-amazon-in-2021" class="plain">
                         <div class="box box-default box-text-bottom box-blog-post has-hover">
                             <div class="box-text text-center">
                                 <div class="box-text-inner blog-post-inner">
@@ -2914,7 +2914,7 @@
                             data-src="http://beginnersfba.live/wp-content/uploads/sb-instagram-feed-images/ebrandx_.jpg"
                             class="lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
-                        <noscript><img src="wp-content/uploads/sb-instagram-feed-images/ebrandx_.jpg" alt="BeginnersFba"
+                        <noscript><img src="homeAssets/wp-content/uploads/sb-instagram-feed-images/ebrandx_.jpg" alt="BeginnersFba"
                                 width="50" height="50"></noscript>
                     </div>
                 </a>
@@ -3001,7 +3001,7 @@ Contact us now. Check the link in bio
                                             class="lazyload"
                                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                                         <noscript>
-                                            <img src="wp-content/plugins/instagram-feed/img/placeholder.png" alt="The best time to start selling online was 5 years ago. The next best time is NOW!!
+                                            <img src="homeAssets/wp-content/plugins/instagram-feed/img/placeholder.png" alt="The best time to start selling online was 5 years ago. The next best time is NOW!!
 
 Want to earn your financial freedom? Let us help you in building the asset for you. You will get help in:
 
@@ -3102,7 +3102,7 @@ Contact us now. Check the link in bio
                                             class="lazyload"
                                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                                         <noscript>
-                                            <img src="wp-content/plugins/instagram-feed/img/placeholder.png" alt="The best time to start selling online was 5 years ago. The next best time is NOW!!
+                                            <img src="homeAssets/wp-content/plugins/instagram-feed/img/placeholder.png" alt="The best time to start selling online was 5 years ago. The next best time is NOW!!
 
 Want to earn your financial freedom? Let us help you in building the asset for you. You will get help in:
 
@@ -3203,7 +3203,7 @@ Contact us now. Check the link in bio
                                             class="lazyload"
                                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                                         <noscript>
-                                            <img src="wp-content/plugins/instagram-feed/img/placeholder.png" alt="The best time to start selling online was 5 years ago. The next best time is NOW!!
+                                            <img src="homeAssets/wp-content/plugins/instagram-feed/img/placeholder.png" alt="The best time to start selling online was 5 years ago. The next best time is NOW!!
 
 Want to earn your financial freedom? Let us help you in building the asset for you. You will get help in:
 
@@ -3304,7 +3304,7 @@ Contact us now. Check the link in bio
                                             class="lazyload"
                                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
                                         <noscript>
-                                            <img src="wp-content/plugins/instagram-feed/img/placeholder.png" alt="The best time to start selling online was 5 years ago. The next best time is NOW!!
+                                            <img src="homeAssets/wp-content/plugins/instagram-feed/img/placeholder.png" alt="The best time to start selling online was 5 years ago. The next best time is NOW!!
 
 Want to earn your financial freedom? Let us help you in building the asset for you. You will get help in:
 
