@@ -37,3 +37,14 @@ Route::get('/booking', function () {
     return view('auth.booking');
 });
 
+// users Route
+Route::prefix('user', function () {
+    Route::middleware('auth', function () {
+        
+        Route::get('/', function () {
+            
+            return view('user.index');
+        })->name('dashboard');
+
+    });
+});
