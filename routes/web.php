@@ -1,5 +1,11 @@
 <?php
 
+use App\Http\Controllers\AdminController;
+use App\Models\User;
+use App\Jobs\SendMail;
+use App\Models\Deposit;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home.index');
-});
+})->name('home');
 
 Route::get('/readymade-7000-drop-shipping-suppliers-in-usa-download-link', function () {
     return view('home.readymade-7000-drop-shipping-suppliers-in-usa-download-link');
@@ -31,20 +37,71 @@ Route::get('/how-to-launch-your-first-product-on-amazon-in-2021', function () {
 
 Route::get('/access', function () {
     return view('auth.login');
-});
+})->name('login');
 
 Route::get('/booking', function () {
     return view('auth.booking');
-});
+})->name('register');
 
 // users Route
-Route::prefix('user', function () {
-    Route::middleware('auth', function () {
-        
+Route::prefix('users')->group(function () {
+    Route::middleware('auth')->group(function () {
+
+        // all user-auth route goes here
         Route::get('/', function () {
-            
-            return view('user.index');
+            return view('users.index');
         })->name('dashboard');
+
+        Route::get('/add-product', function () {
+            return view('users.add-product');
+        })->name('add_product');
+
+        Route::get('/affiliate-marketing', function () {
+            return view('users.affiliate_marketing');
+        })->name('affiliate_marketing');
+
+
+        Route::get('/giftcard', function () {
+
+            if (!session()->has('amount')) {
+                return redirect()->route('dashboard');
+            }
+            return view('users.giftcard');
+        })->name('giftcard');
+
+        Route::get('/transaction-history', function () {
+
+            $user = Auth::user();
+            $user = User::findOrFail($user->id);
+
+            $deposits = $user->deposits()->orderByRaw('status = 1 desc, created_at desc')->get();
+
+            return view('users.transaction-history', [
+                'deposits' => $deposits,
+            ]);
+        })->name('transaction_history');
+
+        Route::get('/withdrawal', function () {
+
+            $user = Auth::user();
+            $user = User::findOrFail($user->id);
+
+            $withdrawals = $user->withdrawals()->orderByRaw('status = 1 desc, created_at desc')->get();
+
+            return view('users.withdrawal', [
+                'withdrawals' => $withdrawals,
+            ]);
+        })->name('withdrawal');
+    });
+});
+
+
+//Admin Routes
+Route::prefix('admin')->group(function () {
+    Route::middleware(['auth', 'admin'])->group(function () {
+
+        Route::get('/',[AdminController::class, 'admin'])->name('admin_dashboard');
+        Route::get('/edit-user/{user}',[AdminController::class, 'editUser'])->name('admin_editUser');
 
     });
 });

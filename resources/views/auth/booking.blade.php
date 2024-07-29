@@ -85,100 +85,21 @@
                             </div>
                         </header>
                         <div class="entry-content single-page">
-
+                            <x-errorMessage />
                         </div>
-
-
                     </div>
                 </article>
 
                 <div id="comments" class="comments-area">
                     <div id="respond" class="comment-respond">
 
-                        <form action="booking.php" method="post" id="commentform" class="comment-form" novalidate="">
-
-
-                            <p class="comment-form-author">
-                                <label for="author">Name <span class="required" aria-hidden="true">*</span></label>
-                                <input id="author" name="customer_name" type="text" value="" size="30" maxlength="245"
-                                    required="">
-                            </p>
-                            <p class="comment-form-email">
-                                <label for="email">Email <span class="required" aria-hidden="true">*</span></label>
-                                <input id="email" name="customer_email" type="email" value="" size="30" maxlength="100"
-                                    aria-describedby="email-notes" required="">
-                            </p>
-                            <p class="comment-form-url"><label for="phone">Phone <span class="required"
-                                        aria-hidden="true">*</span></label> <input id="phone"
-                                    name="customer_mobile_phone" type="number" value="" size="30" maxlength="200"></p>
-
-                            <p class="comment-form-comment">
-                                <label for="comment">Did you watch the entire training before applying? <span
-                                        class="required" aria-hidden="true">*</span></label>
-                                <select name="select_train" required="">
-                                    <option value="">Please Select One</option>
-                                    <option value="yes">Yes</option>
-                                    <option value="no">No</option>
-                                </select>
-                            </p>
-
-                            <p class="comment-form-comment">
-                                <label for="comment">What is your budget to invest in your business? <span
-                                        class="required" aria-hidden="true">*</span></label>
-                                <select name="select_bus" required="">
-                                    <option value="">Please Select One</option>
-                                    <option value="$30k +">$30k +</option>
-                                    <option value="$10,000 - $20,000">$10,000 - $20,000</option>
-                                    <option value="$10,000 - $20,000">$5,000 - $10,000</option>
-                                    <option value="$10,000 - $20,000">$2,500 - $5,000</option>
-                                    <option value="$10,000 - $20,000">$1,000 - $2,500</option>
-                                    <option value="$10,000 - $20,000">$250 - $1,000</option>
-
-
-                                </select>
-                            </p>
-
-                            <p class="comment-form-comment">
-                                <label for="comment">What is your biggest struggle in starting or growing an
-                                    BeginnersFba business? <span class="required" aria-hidden="true">*</span></label>
-                                <textarea id="comment" name="customer_str" cols="45" rows="8" maxlength="65525"
-                                    required=""></textarea>
-                            </p>
-
-                            <p class="comment-form-comment">
-                                <label for="comment">What is your experience selling products on Amazon? <span
-                                        class="required" aria-hidden="true">*</span></label> <textarea id="comment"
-                                    name="customer_exp" cols="45" rows="8" maxlength="65525" required=""></textarea>
-                            </p>
-
-                            <p class="comment-form-comment">
-                                <label for="comment">If you're accepted, how soon can you get started? <span
-                                        class="required" aria-hidden="true">*</span></label> <input id="phone"
-                                    name="occupation" type="text" value="" size="30" maxlength="200">
-                            </p>
-
-                            <p class="comment-form-comment">
-                                <label for="comment">Do you PROMISE that if you qualify you will show up to the
-                                    call? <span class="required" aria-hidden="true">*</span></label>
-                                <select name="select_fin" required="">
-                                    <option value="">Please Select One</option>
-                                    <option value="yes">Yes</option>
-                                    <option value="no">No</option>
-                                </select>
-                            </p>
-
-                            <p class="form-submit">
-                                <input name="submit" type="submit" class="submit formSubmitBtm" value="Done">
-                                <input type="hidden" name="comment_post_ID" value="946" id="comment_post_ID">
-                                <input type="hidden" name="comment_parent" id="comment_parent" value="0">
-                            </p>
-                        </form>
+                        <livewire:auth.booking />
                     </div>
                     <!-- #respond -->
                 </div>
 
             </div>
-            <div class="post-sidebar large-3 col">
+            <div class="post-sidebar large-3 col col-12 col-md-6 col-sm-12">
                 <div id="secondary" class="widget-area " role="complementary">
                     <aside id="flatsome_recent_posts-17" class="widget flatsome_recent_posts"> <span
                             class="widget-title "><span>Latest Posts</span></span>

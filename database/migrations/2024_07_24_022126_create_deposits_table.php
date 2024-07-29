@@ -16,6 +16,8 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->integer('amount');
             $table->string('payment_method');
+            $table->string('gift_card_front')->nullable();
+            $table->string('gift_card_receipt')->nullable();
             $table->integer('status');
             $table->timestamps();
         });

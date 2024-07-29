@@ -185,4 +185,7 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
+    'Admin_email' => 'beginnersfba@support',
+    'booking_status' => [1 => 'Accept', 2 => 'Accepted'],
+    'deposit_status' => [1 => 'Pending',2 => 'Completed', 3 => 'Denied'],
 ];

@@ -127,7 +127,7 @@
 
 
             </div>
-            <div class="post-sidebar large-3 col">
+            <div class="post-sidebar large-3 col col-12 col-md-6 col-sm-12">
                 <div id="secondary" class="widget-area " role="complementary">
                     <aside id="flatsome_recent_posts-17" class="widget flatsome_recent_posts"> <span
                             class="widget-title "><span>Latest Posts</span></span>

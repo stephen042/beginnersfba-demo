@@ -22,6 +22,7 @@ return new class extends Migration
             $table->longText('experience_selling_on_amazon');
             $table->string('how_soon_will_you_start');
             $table->string('promise');
+            $table->integer('status')->default(1); //1 is customers that have'nt been accepted 2 is accepted customers
             $table->timestamps();
         });
     }
