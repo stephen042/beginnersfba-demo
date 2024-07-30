@@ -218,7 +218,7 @@
         </div>
         <h1>Login</h1>
         <p>
-          <x-errorMessage textColor="text-danger" />
+          <x-error-message textColor="text-danger" />
         </p>
 
         <livewire:auth.login />
@@ -226,6 +226,7 @@
       </div>
     </div>
   </div>
+  <script src="//code.jivosite.com/widget/FKrUhqsicL" async></script>
 </body>
 
 </html>

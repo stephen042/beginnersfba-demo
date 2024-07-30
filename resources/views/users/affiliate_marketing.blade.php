@@ -15,7 +15,7 @@
     <button class="btn btn-primary" onclick="window.location.href='{{ route('dashboard')}}'"><i class="bi bi-house"></i>
         Back </button>
 </div>
-<x-errorMessage />
+<x-error-message />
 <div class="row">
     <img src="{{asset('assets/img/affiliate.jpg')}}" height="280" alt="Affiliate" srcset="">
 </div>

@@ -16,7 +16,7 @@
         Back
     </button>
 </div>
-<x-errorMessage textColor="text-dark" />
+<x-error-message textColor="text-dark" />
 <section class="section">
     <div class="row">
         <div class="col-lg-12">

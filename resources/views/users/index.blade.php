@@ -14,7 +14,7 @@
     <h6 style="color: #FF9900;" class="m-0">COVID-19 Related Announcements</h6>
     <span style="font-size: 13px">Stay informed of changes that may impact your business at amazon</span>
 </div>
-<x-errorMessage />
+<x-error-message />
 <section class="section dashboard">
     <div class="row">
         <!-- Left side columns -->

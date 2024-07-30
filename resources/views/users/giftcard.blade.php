@@ -102,7 +102,7 @@
                             Gift card
                             Scratch and upload your Gift card details below</h4>
                     </div>
-                    <x-errorMessage />
+                    <x-error-message />
                     <livewire:user.gift-card />
                     <center>
                         <a href="{{route('dashboard')}}" class="btn btn-primary">Go Back </a>

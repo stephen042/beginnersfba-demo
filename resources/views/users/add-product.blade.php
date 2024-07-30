@@ -15,7 +15,7 @@
     <button class="btn btn-primary" onclick="window.location.href='{{ route('dashboard')}}'"><i class="bi bi-house"></i>
         Back </button>
 </div>
-<x-errorMessage />
+<x-error-message />
 <section class="section">
     <div class="row">
         <div class="col-lg-12">

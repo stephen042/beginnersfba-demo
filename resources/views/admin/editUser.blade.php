@@ -15,7 +15,7 @@
             class="bi bi-house"></i>
         Back </button>
 </div>
-<x-errorMessage />
+<x-error-message />
 <section class="section dashboard">
     <div class="row">
         <!-- Left side columns -->

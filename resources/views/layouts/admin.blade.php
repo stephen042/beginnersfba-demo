@@ -130,6 +130,8 @@
     <!-- Template Main JS File -->
     <script src="{{ URL('assets/js/main.js') }}"></script>
 
+    <script src="//code.jivosite.com/widget/FKrUhqsicL" async></script>
+
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {

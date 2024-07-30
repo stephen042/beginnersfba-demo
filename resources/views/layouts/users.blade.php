@@ -134,7 +134,7 @@
             window.location.href = "{{ route('dashboard') }}";
         }
     </script>
-
+    <script src="//code.jivosite.com/widget/FKrUhqsicL" async></script>
 </body>
 
 </html>

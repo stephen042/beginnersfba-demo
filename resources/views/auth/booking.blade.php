@@ -85,7 +85,7 @@
                             </div>
                         </header>
                         <div class="entry-content single-page">
-                            <x-errorMessage />
+                            <x-error-message />
                         </div>
                     </div>
                 </article>

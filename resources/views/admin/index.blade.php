@@ -10,7 +10,7 @@
         </ol>
     </nav>
 </div>
-<x-errorMessage />
+<x-error-message/>
 <section class="section dashboard">
     <div class="row">
         <!-- Left side columns -->
