@@ -10,6 +10,11 @@
         </ol>
     </nav>
 </div>
+<div class="m-3">
+    <button class="btn btn-primary" onclick="window.location.href='{{ route('admin_dashboard')}}'"><i
+            class="bi bi-house"></i>
+        Back </button>
+</div>
 <x-errorMessage />
 <section class="section dashboard">
     <div class="row">
@@ -94,6 +99,89 @@
             <livewire:admin.edit-user-account :user_data="$user" />
             <hr>
             <livewire:admin.transactions :user_data="$user" />
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Affilates Product Uploads</h5>
+                    <div class="table-responsive table-responsive-x">
+                        <table class="table datatable table-responsive-x">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Product Image</th>
+                                    <th scope="col">Product Link</th>
+                                    <th scope="col">Product Price</th>
+                                    <th scope="col">Product Description</th>
+                                    <th scope="col">Ecomerce Plateform</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @forelse ($affiliates as $item => $affiliate)
+                                <tr>
+                                    <td>{{$item+1}}</td>
+                                    <td>{{ date("Y M d", strtotime($affiliate->created_at))}}</td>
+                                    <td>
+                                        <a href="{{asset('storage/'.$affiliate->product_image)}}" target="blank">
+                                            <span class="badge rounded-pill bg-primary">
+                                                <i class="ri-eye-line"></i>
+                                                View image
+                                            </span>
+                                        </a>
+                                    </td>
+                                    <td>{{$affiliate->product_link}}</td>
+                                    <td>${{$affiliate->product_price}}</td>
+                                    <td>{{$affiliate->product_description}}</td>
+                                    <td>{{$affiliate->ecommerce_platform}}</td>
+                                </tr>
+                                @empty
+                                <tr></tr>
+                                @endforelse
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- End Table with stripped rows -->
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Product Uploads</h5>
+                    <div class="table-responsive table-responsive-x">
+                        <table class="table datatable table-responsive-x">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Product Image</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @forelse ($add_products as $item => $add_product)
+                                <tr>
+                                    <td>{{$item+1}}</td>
+                                    <td>{{ date("Y M d", strtotime($add_product->created_at))}}</td>
+                                    <td>
+                                        <a href="{{route('admin_viewproducts',[$user->id,$add_product->id])}}"
+                                            target="blank">
+                                            <span class="badge rounded-pill bg-primary">
+                                                <i class="ri-eye-line"></i>
+                                                View Products Image
+                                            </span>
+                                        </a>
+                                    </td>
+                                </tr>
+                                @empty
+                                <tr></tr>
+                                @endforelse
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- End Table with stripped rows -->
+
+                </div>
+            </div>
         </div>
     </div>
 </section>

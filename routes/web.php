@@ -102,6 +102,9 @@ Route::prefix('admin')->group(function () {
 
         Route::get('/',[AdminController::class, 'admin'])->name('admin_dashboard');
         Route::get('/edit-user/{user}',[AdminController::class, 'editUser'])->name('admin_editUser');
-
+        Route::get('/edit-user/{user}/{addproduct}',[AdminController::class, 'viewProducts'])->name('admin_viewproducts');
+        Route::get('/bookings',[AdminController::class, 'bookings'])->name('admin_bookings');
+        Route::get('/bookings/{booking}',[AdminController::class, 'bookings_view'])->name('admin_bookings_view');
+        Route::get('/admin-wallet',[AdminController::class, 'admin_wallet'])->name('admin_wallet');
     });
 });

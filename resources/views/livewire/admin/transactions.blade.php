@@ -9,7 +9,7 @@
                             <th scope="col">#</th>
                             <th scope="col">Date</th>
                             <th scope="col">Amount</th>
-                            <th scope="col">Payment_method</th>
+                            <th scope="col">Payment Method</th>
                             <th scope="col">Gift Card Images</th>
                             <th scope="col">status</th>
                             <th scope="col">Action</dth>

@@ -75,7 +75,7 @@
             <hr>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Transactions History</h5>
+                    <h5 class="card-title">Approved Users</h5>
                     <div class="table-responsive table-responsive-x">
                         <table class="table datatable table-responsive-x">
                             <thead>
