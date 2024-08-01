@@ -154,6 +154,10 @@
                                     <th scope="col">#</th>
                                     <th scope="col">Date</th>
                                     <th scope="col">Product Image</th>
+                                    <th scope="col">Product Price</th>
+                                    <th scope="col">Product Quantity</th>
+                                    <th scope="col">Product Description</th>
+                                    <th scope="col">Product Ecommerce Platform</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -170,6 +174,10 @@
                                             </span>
                                         </a>
                                     </td>
+                                    <td>${{$add_product->price}}</td>
+                                    <td>{{$add_product->productQuantity}}</td>
+                                    <td>{{$add_product->productDescription}}</td>
+                                    <td>{{$add_product->ecommercePlatform}}</td>
                                 </tr>
                                 @empty
                                 <tr></tr>
