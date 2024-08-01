@@ -20,7 +20,7 @@ class AddAProduct extends Component
 
     public function add()
     {
-        dd($this->photos);
+        // dd($this->photos);
         $this->validate([
             'photos.*' => 'image|max:6024', // Adjust validation as needed
             'productQuantity' => 'required',
