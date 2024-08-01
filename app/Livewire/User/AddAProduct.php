@@ -6,17 +6,27 @@ use Livewire\Component;
 use App\Models\AddProduct;
 use Livewire\WithFileUploads;
 use Illuminate\Support\Facades\Auth;
+use Livewire\Attributes\Validate;
 
 class AddAProduct extends Component
 {
     use WithFileUploads;
 
     public $photos = [];
+    public $productQuantity;
+    public $productDescription;
+    public $price;
+    public $ecommercePlatform;
 
     public function add()
     {
+        dd($this->photos);
         $this->validate([
             'photos.*' => 'image|max:6024', // Adjust validation as needed
+            'productQuantity' => 'required',
+            'productDescription' => 'required',
+            'price' => 'required',
+            'ecommercePlatform' => 'required',
         ]);
 
         $photoPaths = [];
@@ -31,6 +41,10 @@ class AddAProduct extends Component
         $result = AddProduct::create([
             'user_id' => $user->id,
             'photos' => json_encode($photoPaths),
+            'productQuantity' => $this->productQuantity,
+            'productDescription' => $this->productDescription,
+            'price' => $this->price,
+            'ecommercePlatform' => $this->ecommercePlatform,
         ]);
 
         if ($result) {

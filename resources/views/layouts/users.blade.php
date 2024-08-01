@@ -39,6 +39,19 @@
         .table-responsive-x {
             overflow-x: auto;
         }
+        .flex-container-user {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .flex-item-user {
+            flex: 1;
+            /* margin: 5px; */
+            padding: 5px;
+            text-align: center;
+            border: none;
+            background-color: #f8f9fa;
+        }
     </style>
 
 </head>
@@ -98,7 +111,7 @@
 
 
     <!-- content goes here -->
-    <main id="main" class="main">
+    <main id="main" class="main p-2">
         @yield('content')
     </main>
 

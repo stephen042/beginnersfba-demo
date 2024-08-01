@@ -159,7 +159,48 @@
                                 </button>
                             </span>
                         </div>
-                        @error('reduce_sales')
+                        @error('reduce_user_total_products')
+                        <em class="text-danger">{{ $message }}</em>
+                        @enderror
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div><!-- COL END -->
+    <div class="col-sm-12 col-md-6  col-xl-4">
+        <div class="card">
+            <div class="card-body p-3">
+                <form wire:submit="last_30_days">
+                    <div class="form-group">
+                        <label class="form-label">Edit user Last 30 days</label>
+                        <div class="input-group">
+                            <input type="number" wire:model.live="increase_last_30_days"
+                                class="form-control form-control-sm" placeholder="{{$user_data->last_30_days}}">
+                            <span class="input-group-btn ms-0">
+                                <button class="btn btn-sm btn-primary please-wait-btn" type="submit">
+                                    save
+                                </button>
+                            </span>
+                        </div>
+                        @error('increase_last_30_days')
+                        <em class="text-danger">{{ $message }}</em>
+                        @enderror
+                    </div>
+                </form>
+                <hr>
+                <form wire:submit="last_year">
+                    <div class="form-group">
+                        <label class="form-label">Edit user last year</label>
+                        <div class="input-group">
+                            <input type="number" wire:model.live="increase_last_year"
+                                class="form-control form-control-sm" placeholder="{{$user_data->last_year}}">
+                            <span class="input-group-btn ms-0">
+                                <button class="btn btn-sm btn-info please-wait-btn" type="submit">
+                                    save
+                                </button>
+                            </span>
+                        </div>
+                        @error('increase_last_year')
                         <em class="text-danger">{{ $message }}</em>
                         @enderror
                     </div>

@@ -23,6 +23,8 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->integer('role')->default(1); // 1 is user and 2 is admin
+            $table->integer('last_30_days')->default(0); // 1 is user and 2 is admin
+            $table->integer('last_year')->default(0); // 1 is user and 2 is admin
             $table->rememberToken();
             $table->timestamps();
         });

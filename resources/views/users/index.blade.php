@@ -94,6 +94,26 @@
                     </div>
                 </div><!-- End Sales Card -->
             </div>
+            <div class="flex-container-user">
+                <div class="flex-item-user">
+                    <h6><b>Product</b></h6>
+                    <br>
+                    <p class="m-0"><b>USD</b></p>
+                    <span>Last 30 days</span>
+                </div>
+                <div class="flex-item-user">
+                    <h6><b><i class="bi bi-caret-down-fill me-2"></i>  Last 30 Days</b></h6>
+                    <br>
+                    <p class="m-0 text-success"><b>+{{auth()->user()->last_30_days}} %</b></p>
+                    <span>Previous 30 days</span>
+                </div>
+                <div class="flex-item-user">
+                    <h6><b><i class="bi bi-caret-down-fill me-2"></i> </b></h6>
+                    <br>
+                    <p class="m-0 text-success"><b>+{{auth()->user()->last_year}} %</b></p>
+                    <span>Last year</span>
+                </div>
+            </div>
             <hr>
             <div class="row">
                 <div class="card">

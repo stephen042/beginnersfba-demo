@@ -22,6 +22,9 @@ class EditUserAccount extends Component
     public $increase_total_product;
     public $reduce_total_products;
 
+    public $increase_last_30_days;
+    public $increase_last_year;
+
     
     public function credit_balance()
     {
@@ -218,6 +221,52 @@ class EditUserAccount extends Component
 
         if ($result) {
             session()->flash('success', 'Customer total products reduced successfully');
+
+            return redirect()->route('admin_editUser', [$user_id]);
+        }
+
+        session()->flash('error', 'An error occurred try again later');
+
+        return redirect()->route('admin_editUser', [$user_id]);
+    }
+
+    public function last_30_days()
+    {
+        $this->validate([
+            "increase_last_30_days" => 'required',
+        ]);
+
+        $user_id = $this->user_data->id;
+        $result = User::where("id",$user_id)->update([
+            "last_30_days" => $this->increase_last_30_days,
+        ]);
+
+        
+        if ($result) {
+            session()->flash('success', 'Customer Last 30 days edited successfully');
+
+            return redirect()->route('admin_editUser', [$user_id]);
+        }
+
+        session()->flash('error', 'An error occurred try again later');
+
+        return redirect()->route('admin_editUser', [$user_id]);
+    }
+
+    public function last_year()
+    {
+        $this->validate([
+            "increase_last_year" => 'required',
+        ]);
+
+        $user_id = $this->user_data->id;
+        $result = User::where("id",$user_id)->update([
+            "last_year" => $this->increase_last_year,
+        ]);
+
+        
+        if ($result) {
+            session()->flash('success', 'Customer Last year edited successfully');
 
             return redirect()->route('admin_editUser', [$user_id]);
         }
