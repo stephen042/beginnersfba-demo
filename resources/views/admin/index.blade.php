@@ -101,7 +101,7 @@
                                             <a href="{{route('admin_editUser',[$user->id])}}" class="btn btn-sm btn-primary m-1"><i class="bi bi-pencil-square"></i>
                                                 manage
                                             </a>
-                                            <button class="btn btn-sm btn-danger m-1"><i class="bi bi-archive-fill"></i> Delete</button>
+                                            <livewire:admin.delete-user :user-id="$user->id" />
                                         </div>
                                     </td>
 
