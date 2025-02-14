@@ -19,80 +19,23 @@
     <div class="row">
         <!-- Left side columns -->
         <div class="col-12">
-            <div class="row">
-                <!-- Revenue Card -->
-                <div class="col-xxl-4 col-md-4">
-                    <div class="card info-card revenue-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Balance <span>| USD</span></h5>
-
-                            <div class="d-flex align-items-center">
-                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                    <i class="bi bi-currency-dollar"></i>
-                                </div>
-                                <div class="ps-3">
-                                    <h6>${{number_format(auth()->user()->account_bal,2) }}</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div><!-- End Revenue Card -->
-                <!-- Sales Card -->
-                <div class="col-xxl-4 col-md-4">
-                    <div class="card info-card sales-card">
-
-                        <div class="card-body">
-                            <h5 class="card-title">Sales <span></span></h5>
-
-                            <div class="d-flex align-items-center">
-                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                    <i class="bi bi-cart"></i>
-                                </div>
-                                <div class="ps-3">
-                                    <h6>{{auth()->user()->number_of_sales}}</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div><!-- End Sales Card -->
-                <div class="col-xxl-4 col-md-4">
-                    <div class="card info-card sales-card">
-
-                        <div class="card-body">
-                            <h5 class="card-title">Total Sales <span> </span></h5>
-
-                            <div class="d-flex align-items-center">
-                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                    <i class="bi bi-cart text-warning"></i>
-                                </div>
-                                <div class="ps-3">
-                                    <h6>{{auth()->user()->total_sales}}</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div><!-- End Sales Card -->
-                <div class="col-xxl-4 col-md-4">
-                    <div class="card info-card sales-card">
-
-                        <div class="card-body">
-                            <h5 class="card-title">Total Product <span> </span></h5>
-
-                            <div class="d-flex align-items-center">
-                                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                    <i class="bi bi-bag-check-fill"></i>
-                                </div>
-                                <div class="ps-3">
-                                    <h6>{{auth()->user()->total_product}}</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div><!-- End Sales Card -->
+            <div class="d-flex flex-wrap justify-content-between text-dark mt-1 mb-3">
+                <div class="p-2 flex-fill text-center">
+                    <h4><b>${{format_number_shorthand(auth()->user()->account_bal)}}</b></h4>
+                    <small>Balance</small>  
+                </div>
+                <div class="p-2 flex-fill text-center">
+                    <h4><b>{{format_number_shorthand(auth()->user()->number_of_sales)}}</b></h4>
+                    <small>Sales </small>
+                </div>
+                <div class="p-2 flex-fill text-center">
+                    <h4><b>{{format_number_shorthand(auth()->user()->total_sales)}}</b></h4>
+                    <small>Total Sales </small>
+                </div>
+                <div class="p-2 flex-fill text-center">
+                    <h4><b>{{format_number_shorthand(auth()->user()->total_product)}}</b></h4>
+                    <small>Total Products </small>
+                </div>
             </div>
             <div class="flex-container-user">
                 <div class="flex-item-user">
