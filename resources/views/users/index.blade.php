@@ -66,7 +66,7 @@
                                 <ul class="list-group list-group-flush">
                                     <a href="{{route('add_product')}}">
                                         <li class="list-group-item d-flex flex-row justify-content-between  p-3 my-2 rounded-1"
-                                            style="background-color: #051C5F;">
+                                            style="background-color: #FF9B05;">
                                             <div class="text-white">Add a Product</div>
                                             <div><i class="bi bi-arrow-right-circle-fill text-white"></i></div>
                                         </li>
@@ -74,7 +74,7 @@
 
                                     <a href="mailto:support@beginnersfba.online">
                                         <li class="list-group-item d-flex flex-row justify-content-between p-3 my-2 rounded-1"
-                                            style="background-color: #051C5F;">
+                                            style="background-color: #FF9B05;">
                                             <div class="text-white">Manage
                                                 Orders</div>
                                             <div><i class="bi bi-arrow-right-circle-fill text-white"></i></div>
@@ -82,7 +82,7 @@
                                     </a>
                                     <a href="mailto:support@beginnersfba.online">
                                         <li class="list-group-item d-flex flex-row justify-content-between p-3 my-2 rounded-1"
-                                            style="background-color: #051C5F;">
+                                            style="background-color: #FF9B05;">
                                             <div class="text-white">Manage
                                                 Returns</div>
                                             <div><i class="bi bi-arrow-right-circle-fill text-white"></i></div>
@@ -90,14 +90,14 @@
                                     </a>
                                     <a href="{{route('affiliate_marketing')}}">
                                         <li class="list-group-item d-flex flex-row justify-content-between p-3 my-2 rounded-1"
-                                            style="background-color: #051C5F;">
+                                            style="background-color: #FF9B05;">
                                             <div class="text-white"> Affiliate Marketing </div>
                                             <div><i class="bi bi-arrow-right-circle-fill text-white"></i></div>
                                         </li>
                                     </a>
                                     <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#fund">
                                         <li class="list-group-item d-flex flex-row justify-content-between p-3 my-2 rounded-1"
-                                            style="background-color: #051C5F;">
+                                            style="background-color: #FF9B05;">
                                             <div class="text-white">Add Funds</div>
                                             <div><i class="bi bi-arrow-right-circle-fill text-white"></i></div>
                                         </li>
